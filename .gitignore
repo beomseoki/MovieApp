@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+Packages
+Package.pins
+Package.resolved
+
+# CocoaPods
+Pods
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
