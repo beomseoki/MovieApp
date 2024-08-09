@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  MusicApp
+//  MovieApp
 //
 //  Created by 김범석 on 2024/07/03.
 //
