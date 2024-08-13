@@ -103,7 +103,7 @@ class SearchResultViewController: UIViewController {
 extension SearchResultViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Cell.movieCollectionViewCellIdentifier, for: indexPath) as! MovieCollectionViewCell
-        cell.imageURL = movieArrays[indexPath.item].imageUrl //  
+        cell.imageURL = movieArrays[indexPath.item].imageUrl
         
         return cell
     }
@@ -111,5 +111,4 @@ extension SearchResultViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return movieArrays.count
     }
-    
 }
